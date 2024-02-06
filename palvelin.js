@@ -18,6 +18,9 @@ app.get('/styles.css', (req, res) => {
     res.sendFile(join(__dirname, 'styles.css'));
   });
 
+  app.get('/chat.html', (req, res) => {
+    res.sendFile(join(__dirname, 'chat.html'));
+  });
 
 io.on('connection', (socket) => {
 
