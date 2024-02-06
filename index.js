@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, 'index.html'));
 });
 
+// Styles.css tiedoston lähetys index.html tiedostolle
+app.get('/styles.css', (req, res) => {
+    res.sendFile(join(__dirname, 'styles.css'));
+  });
+
 
 io.on('connection', (socket) => {
 
