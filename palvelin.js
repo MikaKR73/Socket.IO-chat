@@ -9,7 +9,7 @@ const server = createServer(app);
 const io = new Server(server);
 
 // Tässä ei nyt käytetäkään express staticia vaan lähetetään html manuaalisesti
-app.get('/', (req, res) => {
+app.get('/index.html', (req, res) => {
   res.sendFile(join(__dirname, 'index.html'));
 });
 

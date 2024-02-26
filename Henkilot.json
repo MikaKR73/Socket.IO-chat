@@ -1,0 +1,6 @@
+[{"id":1, "etunimi":"Henkilö", "sukunimi":"yksi", "titteli":"Johtaja"},
+ {"id":2, "etunimi":"Henkilö", "sukunimi":"Kaksi", "titteli":"Varasto"},
+ {"id":3, "etunimi":"Mies", "sukunimi":"Matti", "titteli":"Suunittelu"},
+ {"id":4, "etunimi":"Nainen", "sukunimi":"Maijja", "titteli":"Sihteeri"},
+ {"id":5, "etunimi":"Poika", "sukunimi":"Jarkko", "titteli":"Työntekijä"},
+ {"id":6, "etunimi":"Tyttö", "sukunimi":"Jasmin", "titteli":"Työntekijä"}]

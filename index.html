@@ -10,8 +10,40 @@
     <h1>Aloitus sivu</h1>
         <br><br>
     <p>
-        <a href="chat.html" >Keskustelu ikkuna</a>
+        <button id="yritys" onclick="yritysoy()">yritys</button>
+        <button id="yritys" onclick="tietoa()">Tietoa</button>
+        <button id="yritys" onclick="yhteystiedot()">Yhteystiedot</button>
+        <button onclick="location.href='chat.html'" type="button">Keskustelu</button
     </p>
+    <br>
+    <p id="demo"></p>
+    <p id="demoa"></p>
+    <p id="demob"></p>
     </center>
+
+    <script>
+        let text = "Tervetuloa sivuille";
+        document.getElementById("demo").innerHTML = text; 
+  
+    function yritysoy() {
+        let texta = "Yritys OY";
+        document.getElementById("demo").innerHTML = texta; 
+    }  
+
+    function tietoa(){
+        let textb = "Olemme yritys jokka plveleen sinua sinun tarpeisiin";
+        document.getElementById("demo").innerHTML = textb; 
+    }
+
+    function yhteystiedot(){
+        let textc = "asiakaspalvelu a yritys fi";
+        let textca = "045 123456";
+        let textcb = "Tie 23 A Porvoo";
+        document.getElementById("demo").innerHTML = textc; 
+        document.getElementById("demoa").innerHTML = textca;
+        document.getElementById("demob").innerHTML = textcb;
+    }
+    </script>
+
 </body>
 </html>
